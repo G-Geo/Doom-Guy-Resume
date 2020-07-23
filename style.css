@@ -105,6 +105,7 @@ p{
 .paragraph {
     font-family: 'VT323', monospace;
     color: orange;
+    font-size: 1em;
 }
 .class3 {
     font-family: 'Monoton', cursive;
