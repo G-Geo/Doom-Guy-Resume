@@ -140,7 +140,8 @@ p{
     }
     #myProfilePic { 
         height: 200px;
-        width: 210px;
+        width: 220px;
+        margin-left: -6pt;
     }
     .FirstName {
         font-size: 3em;
@@ -189,6 +190,7 @@ p{
     #myProfilePic { 
         height: 140px;
         width: 150px;
+        margin-left: -2pt
     }
     h2 {
         font-size: 1em;
@@ -201,9 +203,9 @@ p{
         grid-template-rows: 10% 6% 10% 3% 18% 28% 25%;
     }
     #myProfilePic { 
-        height: 100px;
-        width: 110px;
-        margin-top: 1pt;
+        height: 80px;
+        width: 90px;
+        margin-top: 6pt;
     }
     .FirstName {
         font-size: 2em;
@@ -235,6 +237,7 @@ p{
         height: 70px;
         width: 80px;
         margin-top: 12pt;
+        margin-left: auto;
     }
     .paragraph {
         font-size: .8em;
