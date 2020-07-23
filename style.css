@@ -1,0 +1,260 @@
+body {
+    background-image: url(https://images3.alphacoders.com/686/thumb-1920-686773.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 765pt;
+    margin: 0pt;
+    display: grid;
+    grid-template-columns: 25% 5% 17% 25% 25% 10%;
+    grid-template-rows: 10% 6% 19.5% 4.5% 20% 30% 20%;
+    }
+#maincontainer {
+    grid-row-start: 2;
+    grid-row-end:8;
+    grid-column-start:2;
+    grid-column-end: 5;
+    background-color: rgb(30, 46, 10);
+}
+#maincontainer2 {
+    background-color: rgb(29, 53, 9);
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.HorizontalColumn {
+    background-color: rgb(29, 53, 9);
+    grid-row-start: 3;
+    grid-row-end:4;
+    grid-column-start:2;
+    grid-column-end:5;
+} 
+.VerticleColumn {
+    background-color: rgb(223, 151, 19);
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end:3;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    grid-row-start:3;
+    grid-column-start:4;
+}
+#myProfilePic {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    margin: auto;
+    height: 180pt;
+    width: 200pt;
+    border-radius: 100pt;
+}
+.FirstName {
+    font-family: 'Black Ops One', cursive;
+    font-size: 3em;
+    color: rgb(241, 46, 20);
+    margin: auto;
+}
+.expertise { 
+    font-family: 'Nosifer', cursive;
+    color: rgb(77, 76, 76);
+    grid-row-start: 5;
+    grid-column-start:3;
+    width:100%;
+    }
+
+h2 {
+    background: rgb(29, 53, 9);
+    color: rgb(236, 59, 46);
+    
+}
+.profile {
+    font-family: 'Nosifer', cursive;
+    width: 100%;
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+.Education{
+    font-family: 'Nosifer', cursive;
+    grid-row-start: 6;
+    grid-column-start: 3;
+}
+
+.Experience {
+    font-family: 'Nosifer', cursive;
+    grid-row-start: 6;
+    grid-column-start: 4;
+}
+.Contact {
+    font-family: 'Nosifer', cursive;
+    grid-row-start: 7;
+    grid-column-start: 3;
+}
+.Experience2 {
+        grid-row-start: 7;
+        grid-column-start: 4;
+
+}
+h3{
+    font-size: smaller;
+}
+p{
+    font-size: small;
+}
+.paragraph {
+    font-family: 'VT323', monospace;
+    color: orange;
+}
+.class3 {
+    font-family: 'Monoton', cursive;
+    color: orange;
+
+}
+.class4 {
+    font-family: 'Monoton', cursive;
+    color: black;
+    
+}
+.class5 {
+    font-family: 'Monoton', cursive;
+    color: black;
+}
+.class6 {
+    font-family: 'Monoton', cursive;
+    color: rgb(23, 65, 18);
+    font-size: .7em;
+    font-style: bold;
+}
+.class7 {
+    font-family: 'Monoton', cursive;
+    color: darkolivegreen;
+}
+
+@media (max-width:1280px) {
+    body {
+        display: grid;
+        grid-template-columns: 22% 7% 17% 35% 5% 21%;
+        grid-template-rows: 10% 6% 19% 7% 18% 30% 20%;
+    }
+    #myProfilePic { 
+        height: 200px;
+        width: 210px;
+    }
+    .FirstName {
+        font-size: 3em;
+        margin: auto;
+    }
+    section {
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    article {
+        font-size: 1em;
+    }
+    @media (max-width:1150px){
+        .class5 {
+            font-size: .5em;
+        }
+    }
+
+    @media (max-width:1080px) {
+        body {
+            display: grid;
+            grid-template-columns: 22% 7% 17% 35% 5% 21%;
+            grid-template-rows: 10% 6% 14% 3% 18% 28% 21%;
+        }
+        #myProfilePic { 
+            height: 180px;
+            width: 190px;
+        }
+        .FirstName {
+            font-size: 2em;
+            margin: auto;
+        }
+        section {
+            font-size: 1em;
+        }
+        h2{
+            font-size: 1.3em;
+        }
+        article {
+            font-size: 1em;
+        }
+}
+@media (max-width:920px) {
+    #myProfilePic { 
+        height: 140px;
+        width: 150px;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
+@media (max-width:720px) {
+    body {
+        display: grid;
+        grid-template-columns: 22% 7% 17% 35% 5% 21%;
+        grid-template-rows: 10% 6% 10% 3% 18% 28% 25%;
+    }
+    #myProfilePic { 
+        height: 100px;
+        width: 110px;
+        margin-top: 1pt;
+    }
+    .FirstName {
+        font-size: 2em;
+        margin: auto;
+    }
+    section {
+        font-size: 1em;
+    }
+    h2{
+        font-size: .6em;
+    }
+    article {
+        font-size: 1em;
+    }
+    .class6 {
+        font-size: .6em;
+    }
+    .class4 {
+        font-size: .8em;
+    }
+
+}
+
+@media (max-width:520px) {
+    #myProfilePic { 
+        height: 70px;
+        width: 80px;
+        margin-top: 12pt;
+}
+
+@media (max-width:450px) {
+    body {
+        display: grid;
+        grid-template-columns: 8% 5% 27% 55% 0% 8%;
+        grid-template-rows: 10% 1% 15% 4% 20% 29.5% 20%;
+    }
+    #myProfilePic { 
+        height: 130px;
+        width: 120px;
+        margin-top: 35pt;
+    }
+    .FirstName {
+        font-size: medium;
+        margin: auto;
+    }
+    section {
+        font-size: smaller;
+    }
+    h2{
+        font-size: small;
+    }
+    article {
+        font-size: small;
+    }
+}
