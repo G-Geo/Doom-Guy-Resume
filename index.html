@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ewert&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <script src="./script.js" defer></script>
 </head>
 <div class=backback></div>
 <div class=backback2></div>
@@ -19,10 +21,12 @@
     <main2 id=maincontainer2></main2>
     <header class=HorizontalColumn>
     </header>
-    <h1 class="FirstName">DOOMGUY</h1>
+    <h1 class="FirstName" id="doomguyId">DOOMGUY</h1>
+
+    
     <header class=VerticleColumn>
     </header>
-    <img src="Doomguy.jpg" id="myProfilePic"> 
+    <img src="Doomguy.jpg" id="myProfilePic" onclick="profileVanish()"> 
     </img>
     <section class=expertise>
         <h2>Expertise</h2>
@@ -54,7 +58,7 @@
     <section class=Contact>
         <br>
         <h2>Contact</h2>
-        <p class=class6>123-4567-890</p>
+        <p class=class6 id="phoneNumber" onclick="phoneAppear()">123-4567-890</p>
         <p class=class6>yourboi@yahoo.org</p>
         <p class=class6>linkylinkdin (linkdin)</p>
     </section>
